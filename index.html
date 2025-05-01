@@ -1,46 +1,64 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CrewFox - Strategic Business Partner</title>
     <meta name="description" content="Take your business to the next level with CrewFox's strategic partnership services">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-900 text-gray-100 font-inter antialiased">
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold text-white">CrewFox</div>
+                <a href="https://lasiusweb.github.io/you-need-a-strategic-partner-who-not-only-comprehends-your-market-but-also-your-2025-05-01-ocq18" class="text-2xl font-bold text-white hover:text-gray-200 transition-colors duration-300">CrewFox</a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#services" class="text-gray-300 hover:text-white transition-colors duration-300">Services</a>
                     <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300">About</a>
                     <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-300 hover:text-white">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-                    </svg>
+                <button class="mobile-menu-button md:hidden text-gray-300 hover:text-white" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#services" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Services</a>
+                <a href="#features" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Features</a>
+                <a href="#testimonials" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">About</a>
+                <a href="#faq" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center pt-20">
-            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920')] bg-cover bg-center opacity-10"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 opacity-90"></div>
             <div class="container mx-auto px-6 relative z-10">
                 <div class="max-w-4xl mx-auto text-center">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8">
-                        TAKE YOUR BUSINESS TO THE NEXT LEVEL WITH OUR SERVICES
+                        TRANSFORM YOUR BUSINESS WITH STRATEGIC INNOVATION
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-300 mb-12">
-                        You need a strategic partner who not only comprehends your market but also your business vision
+                        Partner with CrewFox to accelerate growth, optimize operations, and stay ahead in today's competitive market. Our expertise becomes your advantage.
                     </p>
                     <a href="#contact" class="inline-block bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
-                        Get Started
+                        Start Your Transformation
                     </a>
                 </div>
             </div>
@@ -48,58 +66,125 @@
 
         <section id="services" class="py-24 bg-gray-800">
             <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Our Premium Services</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300">
-                        <h3 class="text-2xl font-bold mb-4">CrewFox IT</h3>
-                        <p class="text-gray-300">Comprehensive IT solutions tailored to your business needs</p>
+                    <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                        <h3 class="text-2xl font-bold mb-4">CrewFox IT Solutions</h3>
+                        <p class="text-gray-300">Enterprise-grade IT infrastructure, cloud solutions, and cybersecurity services tailored to your specific industry needs. Achieve 99.9% uptime and reduce operational costs by up to 40%.</p>
                     </div>
-                    <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
                         <h3 class="text-2xl font-bold mb-4">CrewFox Engineering</h3>
-                        <p class="text-gray-300">Expert engineering in product design and development</p>
+                        <p class="text-gray-300">Cutting-edge product development, process optimization, and technical consulting services. Our engineering solutions have helped clients reduce time-to-market by 60% and increase efficiency by 35%.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="benefits" class="py-24">
+        <section id="about" class="py-24">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Our Expertise</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="bg-gray-800 rounded-2xl p-8">
-                        <h3 class="text-xl font-semibold mb-4">Business & Technical Expertise</h3>
-                        <p class="text-gray-300">Comprehensive understanding of both business and technical aspects</p>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About CrewFox</h2>
+                <div class="max-w-4xl mx-auto space-y-8">
+                    <p class="text-lg text-gray-300">
+                        Founded in 2018 by a team of industry veterans, CrewFox emerged from a vision to bridge the gap between technical excellence and business strategy. Our founders' combined experience of over 50 years in technology and business consulting laid the foundation for a company that truly understands the challenges of modern enterprises.
+                    </p>
+                    <p class="text-lg text-gray-300">
+                        Today, CrewFox stands committed to our core values of innovation, integrity, and client success. We believe in building lasting partnerships that drive meaningful transformation, focusing on sustainable growth and measurable results. Our mission is to empower businesses with the tools and expertise they need to thrive in an increasingly digital world.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Client Success Stories</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-900 p-6 rounded-lg hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"CrewFox's IT solutions helped us reduce infrastructure costs by 45% while improving system reliability. Their team's expertise in cloud migration was invaluable."</p>
+                        <p class="font-semibold">Sarah Johnson</p>
+                        <p class="text-sm text-gray-400">CTO, TechVision Inc.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-2xl p-8">
-                        <h3 class="text-xl font-semibold mb-4">Engineering Excellence</h3>
-                        <p class="text-gray-300">Cutting-edge engineering solutions in product design</p>
+                    <div class="bg-gray-900 p-6 rounded-lg hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The engineering team at CrewFox revolutionized our product development process. We launched our flagship product 2 months ahead of schedule."</p>
+                        <p class="font-semibold">Michael Chen</p>
+                        <p class="text-sm text-gray-400">Product Director, InnovateX</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-lg hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Working with CrewFox transformed our business operations. Their strategic insights and technical expertise helped us achieve 200% growth in just 18 months."</p>
+                        <p class="font-semibold">Emily Rodriguez</p>
+                        <p class="text-sm text-gray-400">CEO, GrowthFirst Solutions</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-lg hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The cybersecurity solutions implemented by CrewFox have given us peace of mind. Their proactive approach to security has prevented numerous potential incidents."</p>
+                        <p class="font-semibold">David Thompson</p>
+                        <p class="text-sm text-gray-400">CISO, SecureBank</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="faq" class="py-24 bg-gray-800">
+        <section id="faq" class="py-24">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="bg-gray-900 rounded-lg p-6">
-                        <h3 class="text-xl font-semibold mb-2">What services do you offer?</h3>
-                        <p class="text-gray-300">We provide comprehensive IT solutions and engineering services.</p>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition-colors duration-300">
+                        <h3 class="text-xl font-semibold mb-2">What makes CrewFox different from other consulting firms?</h3>
+                        <p class="text-gray-300">Our unique combination of technical expertise and business acumen allows us to deliver solutions that drive real business value. We focus on long-term partnerships rather than one-off projects.</p>
                     </div>
-                    <div class="bg-gray-900 rounded-lg p-6">
-                        <h3 class="text-xl font-semibold mb-2">How can we get started?</h3>
-                        <p class="text-gray-300">Contact us through email at john@crewfoxx.com to discuss your needs.</p>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition-colors duration-300">
+                        <h3 class="text-xl font-semibold mb-2">How long does a typical project implementation take?</h3>
+                        <p class="text-gray-300">Project timelines vary based on scope and complexity, but most implementations range from 3-6 months. We provide detailed timelines during our initial consultation.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition-colors duration-300">
+                        <h3 class="text-xl font-semibold mb-2">What industries do you specialize in?</h3>
+                        <p class="text-gray-300">We have extensive experience across finance, healthcare, technology, and manufacturing sectors, but our solutions can be adapted to any industry.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition-colors duration-300">
+                        <h3 class="text-xl font-semibold mb-2">Do you offer ongoing support after project completion?</h3>
+                        <p class="text-gray-300">Yes, we provide comprehensive post-implementation support and maintenance services, ensuring your solutions continue to perform optimally.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition-colors duration-300">
+                        <h3 class="text-xl font-semibold mb-2">What is your pricing structure?</h3>
+                        <p class="text-gray-300">We offer flexible pricing models including project-based, retainer, and value-based pricing. Each engagement is customized to fit your specific needs and budget.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="py-24">
+        <section id="contact" class="py-24 bg-gray-800">
             <div class="container mx-auto px-6">
                 <div class="max-w-3xl mx-auto text-center">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Get Started?</h2>
-                    <p class="text-xl text-gray-300 mb-8">Contact us to discuss how we can help your business grow</p>
-                    <a href="mailto:john@crewfoxx.com" class="inline-block bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:transform hover:scale-105 transition-all duration-300">
-                        Contact Us
+                    <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Business?</h2>
+                    <p class="text-xl text-gray-300 mb-8">Let's discuss how CrewFox can help you achieve your business goals. Schedule a free consultation today.</p>
+                    <a href="mailto:john@crewfoxx.com" class="inline-block bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                        Schedule Consultation
                     </a>
                 </div>
             </div>
@@ -108,20 +193,27 @@
 
     <footer class="bg-gray-800 py-12">
         <div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">CrewFox</h3>
-                    <p class="text-gray-300">Your strategic partner in business growth</p>
+                    <p class="text-gray-300">Your strategic partner in business growth and innovation</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact</h3>
                     <p class="text-gray-300">john@crewfoxx.com</p>
                 </div>
                 <div>
+                    <h3 class="text-xl font-bold mb-4">Resources</h3>
+                    <div class="space-y-2">
+                        <a href="https://lasiusweb.github.io/you-need-a-strategic-partner-who-not-only-comprehends-your-market-but-also-your-2025-05-01-ocq18/blog.html" class="block text-gray-300 hover:text-white transition-colors duration-300">Blog</a>
+                        <a href="#case-studies" class="block text-gray-300 hover:text-white transition-colors duration-300">Case Studies</a>
+                    </div>
+                </div>
+                <div>
                     <h3 class="text-xl font-bold mb-4">Legal</h3>
                     <div class="space-y-2">
-                        <a href="#" class="block text-gray-300 hover:text-white transition-colors duration-300">Privacy Policy</a>
-                        <a href="#" class="block text-gray-300 hover:text-white transition-colors duration-300">Terms of Service</a>
+                        <a href="https://lasiusweb.github.io/you-need-a-strategic-partner-who-not-only-comprehends-your-market-but-also-your-2025-05-01-ocq18/privacy.html" class="block text-gray-300 hover:text-white transition-colors duration-300">Privacy Policy</a>
+                        <a href="https://lasiusweb.github.io/you-need-a-strategic-partner-who-not-only-comprehends-your-market-but-also-your-2025-05-01-ocq18/terms.html" class="block text-gray-300 hover:text-white transition-colors duration-300">Terms of Service</a>
                     </div>
                 </div>
             </div>
@@ -130,5 +222,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
